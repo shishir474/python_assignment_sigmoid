@@ -8,4 +8,5 @@ simple dfs problem:
 5. While performing Dfs, mark all the cells(O's) as -1. -1 indicates that these cells will not be converted to 'X' since they are connected to boundary.
 6. Now the O's that are left are our target. Convert all these leftover O's to 'X'.
 7. Now traverse the matrix again and convert all '-1s' back to 'O'. These O's will not be converted, so changing them back.
-
+8. time complexity: O (m x n)
+9. Auxiliary space complexity: O (m x n)
