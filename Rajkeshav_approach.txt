@@ -1,4 +1,5 @@
-An "O" can be replaced by "X" if there is an "O" in its neighborhood
-but that neighborhood "O" should also be a valid "O" means, it should neither be on boundary not it is connected to some contiguous "O" that ends at boundary.we can traverse the boundaries of the matrix for "O" and use dfs to find the contiguous "O"s inside the matrix and replace those by any special character so that we couldn't trace the same sequence in the next turn.Finally, we traverse the matrix and replace all "O"s with "X"s, because they are the valid ones. and all special characters with "O"s.
+An "O" can be replaced by "X" if there is an "O" in its neighborhood but that neighborhood "O" should also be a valid "O" means, it should neither be on boundary not it is connected to some contiguous "O" that ends at boundary.
+We can traverse the boundaries of the matrix for "O" and use dfs to find the contiguous "O"s inside the matrix and replace those by any special character so that we couldn't trace the same sequence in the next turn.
+Finally, we traverse the matrix and replace all "O"s with "X"s, because they are the valid ones. and all special characters with "O"s.
 time complexity: O (M x N)
 Auxiliary space complexity (using stack): O (M x N)
