@@ -9,4 +9,4 @@ simple dfs problem:
 6. Now the O's that are left are our target. Convert all these leftover O's to 'X'.
 7. Now traverse the matrix again and convert all '-1s' back to 'O'. These O's will not be converted, so changing them back.
 8. time complexity: O (m x n)
-9. Auxiliary space complexity: O (m x n)
+9. Auxiliary space complexity(recursive call stack space): O (m x n)
